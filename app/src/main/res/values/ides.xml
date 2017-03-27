@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="dogImageRecycle" type="id"/>
+    <item name="dogNameRecycle" type="id"/>
+    <item name="dogImageEdit" type="id"/>
+    <item name="dogNameEdit" type="id"/>
+    <item name="updateDogBttn" type="id"/>
+    <item name="deleteDogBttn" type="id"/>
+    <item name="floatBttn" type="id"/>
+    <item name="floatAddDogBttn" type="id"/>
+</resources>
