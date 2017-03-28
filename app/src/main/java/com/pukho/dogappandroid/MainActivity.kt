@@ -24,11 +24,9 @@ class MainActivity : Activity() {
         val dog : Dog?  = data?.getParcelableExtra("dog")
 
         if (requestCode == ADDED_DOG && resultCode == Activity.RESULT_OK) {
-            toast("dog added with new name = $dog.name")
             dogAdapter!!.push(dog!!)
         }
         else if (requestCode == UPDATED_DOG && resultCode == Activity.RESULT_OK) {
-            toast("dog update with new name = $dog.name")
             dogAdapter!!.upgrade(dog!!)
         }
     }

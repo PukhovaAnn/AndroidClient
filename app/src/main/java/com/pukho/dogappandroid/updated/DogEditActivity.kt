@@ -28,7 +28,6 @@ class DogEditActivity : EditDogsSetActivity() {
             val ins: InputStream = DogService.api.downloadFileUri(dog.id)
                     .execute().body().byteStream();
             uiThread {
-                toast(dog.pictureLocation)
                 pictureView.imageBitmap = BitmapFactory.decodeStream(ins);
             }
         }
